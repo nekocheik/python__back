@@ -20,7 +20,6 @@ array.split
 #imports
 
 import statistics
-
         #or
 from statistics import mean    
 
@@ -43,3 +42,8 @@ array[1:2]
 #boucle for
 
 for num in range(1, 6) #1 a 5
+
+#mini regex 
+if lettre in "AEIOUYaeiouy":
+
+^((([a-z])[A-Z0-9])|(([A-Z])[a-z0-9])|(([0-9])[A-Za-z]))[a-zA-Z0-9]{3,100}
