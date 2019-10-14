@@ -71,3 +71,5 @@ def checkio(text):
 
 from string import ascii_lowercase as letters
 checkio = lambda text: max(letters, key=text.lower().count)
+
+#https://www.programiz.com/python-programming/methods/built-in/max
